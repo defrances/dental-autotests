@@ -5,7 +5,7 @@ pipeline {
         choice(
             name: 'ENVIRONMENT',
             choices: ['Test', 'Development'],
-            description: 'Окружение: от него зависят appsettings.{Environment}.json и runsettings'
+            description: 'Environment: determines appsettings.{Environment}.json and runsettings'
         )
         choice(
             name: 'TEST_CATEGORY',
@@ -22,7 +22,7 @@ pipeline {
                 'Help',
                 'Notification'
             ],
-            description: 'Категория тестов (NUnit Category). All = без фильтра'
+            description: 'Test category (NUnit Category). All = no filter'
         )
     }
 
@@ -34,9 +34,9 @@ pipeline {
 
     environment {
         DOTNET_VERSION = '8.0'
-        // Без libicu в образе Jenkins: запуск dotnet в invariant mode (см. https://aka.ms/dotnet-missing-libicu)
+        // Without libicu in Jenkins image: run dotnet in invariant mode (see https://aka.ms/dotnet-missing-libicu)
         DOTNET_SYSTEM_GLOBALIZATION_INVARIANT = '1'
-        // ENVIRONMENT и TEST_CATEGORY задаются через parameters
+        // ENVIRONMENT and TEST_CATEGORY are set via parameters
     }
 
     stages {
@@ -69,7 +69,7 @@ pipeline {
                 script {
                     def outDir = "bin/Release/net${env.DOTNET_VERSION}"
                     if (isUnix()) {
-                        // В NuGet пакете Microsoft.Playwright есть только playwright.ps1; на Linux ставим через dotnet tool
+                        // Microsoft.Playwright NuGet has only playwright.ps1; on Linux install via dotnet tool
                         sh '''
                             dotnet tool install --global Microsoft.Playwright.CLI 2>/dev/null || true
                             export PATH="$HOME/.dotnet/tools:$PATH"
@@ -91,9 +91,10 @@ pipeline {
                 script {
                     def envName = params.ENVIRONMENT ?: 'Test'
                     def runsettings = "test.${envName.toLowerCase()}.runsettings"
+                    // VSTest uses TestCategory for NUnit [Category(...)]
                     def filterArg = (params.TEST_CATEGORY == null || params.TEST_CATEGORY == 'All')
                         ? ''
-                        : "--filter \"Category=${params.TEST_CATEGORY}\""
+                        : "--filter \"TestCategory=${params.TEST_CATEGORY}\""
                     def testCmd = """
                         dotnet test -c Release --no-build --verbosity normal
                             --logger "trx;LogFileName=TestResults.trx"
@@ -115,7 +116,7 @@ pipeline {
     post {
         always {
             junit allowEmptyResults: true, testResults: '**/junit.xml'
-            // Артифакты по каждому тесту: видео, HAR, скриншоты при падении, TRX
+            // Per-test artifacts: video, HAR, screenshots on failure, TRX
             archiveArtifacts artifacts: '**/TestResults.trx,**/test-results/videos/**,**/test-results/har/**,**/test-results/screenshots/**', allowEmptyArchive: true
             archiveArtifacts artifacts: '**/playwright-report/**', allowEmptyArchive: true
         }

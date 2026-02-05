@@ -137,49 +137,49 @@ API mocks are attached before navigating to pages that call those APIs. Examples
 - **Invalid username or password** (Keycloak) — for Test env, check password and logins in `appsettings.Test.json` or set `DMG_PASSWORD`.
 - **Timeout on `[data-cy^='hoverButton-']`** — case list not returned; check `MockDashboardCases` and fixtures `fixtures/dashboardCases.json` / `dashboardCases.Test.json`. See `FAILURE_ANALYSIS.md`.
 
-## Jenkins (локальный Docker)
+## Jenkins (local Docker)
 
-Pipeline описан в `Jenkinsfile` (параметры: окружение **ENVIRONMENT**, категория тестов **TEST_CATEGORY**). Локальный запуск Jenkins в Docker:
+The pipeline is defined in `Jenkinsfile` (parameters: **ENVIRONMENT**, **TEST_CATEGORY**). To run Jenkins locally in Docker:
 
-**Требования:** установленный [Docker Desktop](https://www.docker.com/products/docker-desktop/) (запустите его перед командами ниже).
+**Requirements:** [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed (start it before running the commands below).
 
-**Вариант 1 — docker compose (рекомендуется):**
+**Option 1 — docker compose (recommended):**
 
-Собирается образ Jenkins с .NET 8 SDK (`docker/Dockerfile.jenkins`), чтобы pipeline мог выполнять `dotnet restore/build/test`.
+Builds a Jenkins image with .NET 8 SDK (`docker/Dockerfile.jenkins`) so the pipeline can run `dotnet restore/build/test`.
 
 ```powershell
 cd e:\Work\MyGit\dental-autotests
-docker compose build --no-cache   # первый раз или после смены Dockerfile
+docker compose build --no-cache   # first time or after changing Dockerfile
 docker compose up -d
 ```
 
-**Вариант 2 — одна команда docker run:**
+**Option 2 — single docker run command:**
 
 ```powershell
 docker run -d --name dental-jenkins -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
 
-**После запуска:**
+**After starting:**
 
-1. Откройте в браузере: **http://localhost:8080**
-2. Пароль разблокировки при первом запуске — в логах контейнера:
+1. Open in browser: **http://localhost:8080**
+2. Unlock password on first run — from container logs:
    ```powershell
    docker compose logs jenkins
    ```
-   Ищите строку вида `Jenkins initial password is ...` или `Password: ...`
-3. Пройдите мастер настройки, установите нужные плагины (как минимум **Pipeline**, **JUnit**).
-4. Создайте **Pipeline** job: укажите репозиторий с этим проектом и путь к Jenkinsfile (`Jenkinsfile`).
+   Look for a line like `Jenkins initial password is ...` or `Password: ...`
+3. Complete the setup wizard and install required plugins (at least **Pipeline**, **JUnit**).
+4. Create a **Pipeline** job: point to this project's repository and the path to Jenkinsfile (`Jenkinsfile`).
 
-Данные Jenkins хранятся в volume `jenkins_home` и сохраняются между перезапусками. Остановка: `docker compose down`.
+Jenkins data is stored in volume `jenkins_home` and persists between restarts. To stop: `docker compose down`.
 
-**Примечание:** для запуска тестов из pipeline агенту Jenkins нужен .NET 8 SDK и (для Playwright) установленные браузеры. На контроллере в Docker их нет — настройте agent с меткой (например, `dotnet8`) на машине с установленным .NET 8 и Playwright или запускайте тесты на self-hosted агенте.
+**Note:** To run tests from the pipeline, the Jenkins agent needs .NET 8 SDK and (for Playwright) browsers installed. The Docker controller image does not include them — configure an agent with a label (e.g. `dotnet8`) on a machine with .NET 8 and Playwright, or run tests on a self-hosted agent.
 
 ### Git: SSH vs HTTPS
 
-- **SSH** (`git@github.com:...`): если в Jenkins при clone появляется **"Load key ... error in libcrypto"**, значит ключ в Credentials записан с ошибкой. Исправление: открой Credential (SSH Username with private key), вставь **приватный** ключ заново (файл целиком, от `-----BEGIN OPENSSH PRIVATE KEY-----` до `-----END OPENSSH PRIVATE KEY-----`), убедись что в конце есть **перевод строки**. Сохрани. Если не поможет — попробуй создать ключ RSA: `ssh-keygen -t rsa -b 2048 -C "your@email"` и добавить его в Jenkins и на GitHub.
-- **HTTPS** (рекомендуется в Docker): не зависит от libcrypto. В Jenkins создай Credential **Username with password**: ID = `github-https`, Username = твой GitHub логин, Password = [Personal Access Token](https://github.com/settings/tokens) (repo scope). Примени конфиг джобы из `jenkins-job-config-https.xml` (скрипт `scripts/Apply-JenkinsJobConfig.ps1 -ConfigPath ..\jenkins-job-config-https.xml`) — тогда джоба будет клонировать по HTTPS с этим credential.
+- **SSH** (`git@github.com:...`): If Jenkins shows **"Load key ... error in libcrypto"** on clone, the key in Credentials is incorrect. Fix: open the Credential (SSH Username with private key), paste the **private** key again (full file, from `-----BEGIN OPENSSH PRIVATE KEY-----` to `-----END OPENSSH PRIVATE KEY-----`), ensure there is a **newline** at the end. Save. If it still fails — try creating an RSA key: `ssh-keygen -t rsa -b 2048 -C "your@email"` and add it to Jenkins and GitHub.
+- **HTTPS** (recommended in Docker): Does not depend on libcrypto. In Jenkins create a Credential **Username with password**: ID = `github-https`, Username = your GitHub login, Password = [Personal Access Token](https://github.com/settings/tokens) (repo scope). Apply the job config from `jenkins-job-config-https.xml` (script `scripts/Apply-JenkinsJobConfig.ps1 -ConfigPath ..\jenkins-job-config-https.xml`) so the job clones via HTTPS with this credential.
 
-- **Failed to connect to github.com port 443**: из контейнера нет выхода в интернет (таймаут). Попробуй перезапустить сборку (часто разовый сбой). Если постоянно: проверь интернет на хосте, перезапусти Docker Desktop; за прокси — в `docker-compose.yml` раскомментируй `HTTP_PROXY`/`HTTPS_PROXY` и настрой прокси в Jenkins (Manage Jenkins → System → HTTP Proxy).
+- **Failed to connect to github.com port 443**: No internet from the container (timeout). Try re-running the build (often a one-off failure). If it persists: check internet on the host, restart Docker Desktop; behind a proxy — in `docker-compose.yml` uncomment `HTTP_PROXY`/`HTTPS_PROXY` and configure the proxy in Jenkins (Manage Jenkins → System → HTTP Proxy).
 
 ## Further documentation
 

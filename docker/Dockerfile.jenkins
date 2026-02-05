@@ -1,15 +1,15 @@
-# Jenkins LTS + .NET 8 SDK (без apt-репозитория Microsoft — копируем из официального образа)
+# Jenkins LTS + .NET 8 SDK (without Microsoft apt repo — copy from official image)
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS dotnet-sdk
 
 FROM jenkins/jenkins:lts
 
 USER root
 
-# Копируем .NET 8 SDK из официального образа (обходим проблему с подписью apt-репозитория в новых Debian)
+# Copy .NET 8 SDK from official image (avoids apt repo signing issues on newer Debian)
 COPY --from=dotnet-sdk /usr/share/dotnet /usr/share/dotnet
 RUN ln -sf /usr/share/dotnet/dotnet /usr/local/bin/dotnet
 
-# libicu для .NET; пакеты для запуска Chromium (Playwright) в headless
+# libicu for .NET; packages for running Chromium (Playwright) headless
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libicu-dev \
     libglib2.0-0 \

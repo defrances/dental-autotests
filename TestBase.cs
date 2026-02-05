@@ -208,7 +208,7 @@ public abstract class TestBase : PageTest
 
         try
         {
-            // Скриншот при падении теста — артифакт по каждому упавшему тесту
+            // Screenshot on test failure — artifact for each failed test
             if (TestContext.CurrentContext.Result.Outcome != ResultState.Success && Page != null)
             {
                 var screenshotsDir = Path.Combine(AppContext.BaseDirectory, "test-results", "screenshots");

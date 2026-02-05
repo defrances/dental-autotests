@@ -88,7 +88,7 @@ Desktop.ini
 *.swp
 *~
 
-# Локальные SSH-ключи (не коммитить)
+# Local SSH keys (do not commit)
 .ssh-keys/
 
 # Misc

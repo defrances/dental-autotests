@@ -10,7 +10,7 @@
       <userRemoteConfigs>
         <hudson.plugins.git.UserRemoteConfig>
           <url>https://github.com/defrances/dental-autotests.git</url>
-          <!-- Создай в Jenkins Credentials: Kind = Username with password, ID = github-https, Username = GitHub логин, Password = Personal Access Token -->
+          <!-- In Jenkins create Credentials: Kind = Username with password, ID = github-https, Username = GitHub login, Password = Personal Access Token -->
           <credentialsId>github-https</credentialsId>
         </hudson.plugins.git.UserRemoteConfig>
       </userRemoteConfigs>

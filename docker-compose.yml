@@ -1,7 +1,7 @@
-# Локальный Jenkins для запуска pipeline (Jenkinsfile)
-# Запуск: docker compose up -d
-# Открыть: http://localhost:8080
-# Пароль при первом запуске: из логов контейнера (docker compose logs jenkins)
+# Local Jenkins for running pipeline (Jenkinsfile)
+# Run: docker compose up -d
+# Open: http://localhost:8080
+# First-run password: from container logs (docker compose logs jenkins)
 
 services:
   jenkins:
@@ -19,14 +19,14 @@ services:
       - jenkins_home:/var/jenkins_home
     environment:
       - HOME=/var/jenkins_home
-      # .NET без libicu в образе — запуск в invariant mode (https://aka.ms/dotnet-missing-libicu)
+      # .NET without libicu in image — run in invariant mode (https://aka.ms/dotnet-missing-libicu)
       - DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
-      # Если за корпоративным прокси — раскомментируй и укажи свой прокси (тогда в Jenkins: Manage Jenkins → System → HTTP Proxy тоже укажи прокси):
+      # If behind corporate proxy — uncomment and set your proxy (then in Jenkins: Manage Jenkins → System → HTTP Proxy set the proxy too):
       # - HTTP_PROXY=http://proxy.company:8080
       # - HTTPS_PROXY=http://proxy.company:8080
       # - NO_PROXY=localhost,127.0.0.1
     command: ["sh", "-c", "mkdir -p /var/jenkins_home/.ssh && ssh-keyscan -t ed25519,ecdsa github.com >> /var/jenkins_home/.ssh/known_hosts 2>/dev/null && ssh-keyscan -t ed25519,ecdsa github.com >> /etc/ssh/ssh_known_hosts 2>/dev/null; exec /usr/local/bin/jenkins.sh"]
-    # При первом запуске пароль админа смотри в логах: docker compose logs jenkins
+    # On first run see admin password in logs: docker compose logs jenkins
     restart: unless-stopped
 
 volumes:
