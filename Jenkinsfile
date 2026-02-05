@@ -73,7 +73,7 @@ pipeline {
                         sh '''
                             dotnet tool install --global Microsoft.Playwright.CLI 2>/dev/null || true
                             export PATH="$HOME/.dotnet/tools:$PATH"
-                            playwright install --with-deps
+                            playwright install chromium
                         '''
                     } else {
                         def pwScript = "${outDir}/playwright.ps1"
