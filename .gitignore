@@ -88,6 +88,9 @@ Desktop.ini
 *.swp
 *~
 
+# Локальные SSH-ключи (не коммитить)
+.ssh-keys/
+
 # Misc
 *.log
 *.tmp

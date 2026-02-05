@@ -1,0 +1,18 @@
+# Jenkins LTS + .NET 8 SDK (без apt-репозитория Microsoft — копируем из официального образа)
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS dotnet-sdk
+
+FROM jenkins/jenkins:lts
+
+USER root
+
+# Копируем .NET 8 SDK из официального образа (обходим проблему с подписью apt-репозитория в новых Debian)
+COPY --from=dotnet-sdk /usr/share/dotnet /usr/share/dotnet
+RUN ln -sf /usr/share/dotnet/dotnet /usr/local/bin/dotnet
+
+# libicu нужен для .NET globalization (иначе dotnet падает с "Couldn't find a valid ICU package")
+RUN apt-get update && apt-get install -y --no-install-recommends libicu-dev \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+ENV PATH="/usr/share/dotnet:${PATH}"
+
+USER jenkins

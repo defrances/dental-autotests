@@ -34,6 +34,8 @@ pipeline {
 
     environment {
         DOTNET_VERSION = '8.0'
+        // Без libicu в образе Jenkins: запуск dotnet в invariant mode (см. https://aka.ms/dotnet-missing-libicu)
+        DOTNET_SYSTEM_GLOBALIZATION_INVARIANT = '1'
         // ENVIRONMENT и TEST_CATEGORY задаются через parameters
     }
 

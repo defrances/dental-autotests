@@ -1,0 +1,31 @@
+# Локальный Jenkins для запуска pipeline (Jenkinsfile)
+# Запуск: docker compose up -d
+# Открыть: http://localhost:8080
+# Пароль при первом запуске: из логов контейнера (docker compose logs jenkins)
+
+services:
+  jenkins:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.jenkins
+    image: dental-autotests/jenkins-dotnet:lts
+    container_name: dental-jenkins
+    privileged: true
+    user: root
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+    environment:
+      - HOME=/var/jenkins_home
+      # Если за корпоративным прокси — раскомментируй и укажи свой прокси (тогда в Jenkins: Manage Jenkins → System → HTTP Proxy тоже укажи прокси):
+      # - HTTP_PROXY=http://proxy.company:8080
+      # - HTTPS_PROXY=http://proxy.company:8080
+      # - NO_PROXY=localhost,127.0.0.1
+    command: ["sh", "-c", "mkdir -p /var/jenkins_home/.ssh && ssh-keyscan -t ed25519,ecdsa github.com >> /var/jenkins_home/.ssh/known_hosts 2>/dev/null && ssh-keyscan -t ed25519,ecdsa github.com >> /etc/ssh/ssh_known_hosts 2>/dev/null; exec /usr/local/bin/jenkins.sh"]
+    # При первом запуске пароль админа смотри в логах: docker compose logs jenkins
+    restart: unless-stopped
+
+volumes:
+  jenkins_home:

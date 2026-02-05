@@ -137,6 +137,50 @@ API mocks are attached before navigating to pages that call those APIs. Examples
 - **Invalid username or password** (Keycloak) — for Test env, check password and logins in `appsettings.Test.json` or set `DMG_PASSWORD`.
 - **Timeout on `[data-cy^='hoverButton-']`** — case list not returned; check `MockDashboardCases` and fixtures `fixtures/dashboardCases.json` / `dashboardCases.Test.json`. See `FAILURE_ANALYSIS.md`.
 
+## Jenkins (локальный Docker)
+
+Pipeline описан в `Jenkinsfile` (параметры: окружение **ENVIRONMENT**, категория тестов **TEST_CATEGORY**). Локальный запуск Jenkins в Docker:
+
+**Требования:** установленный [Docker Desktop](https://www.docker.com/products/docker-desktop/) (запустите его перед командами ниже).
+
+**Вариант 1 — docker compose (рекомендуется):**
+
+Собирается образ Jenkins с .NET 8 SDK (`docker/Dockerfile.jenkins`), чтобы pipeline мог выполнять `dotnet restore/build/test`.
+
+```powershell
+cd e:\Work\MyGit\dental-autotests
+docker compose build --no-cache   # первый раз или после смены Dockerfile
+docker compose up -d
+```
+
+**Вариант 2 — одна команда docker run:**
+
+```powershell
+docker run -d --name dental-jenkins -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+```
+
+**После запуска:**
+
+1. Откройте в браузере: **http://localhost:8080**
+2. Пароль разблокировки при первом запуске — в логах контейнера:
+   ```powershell
+   docker compose logs jenkins
+   ```
+   Ищите строку вида `Jenkins initial password is ...` или `Password: ...`
+3. Пройдите мастер настройки, установите нужные плагины (как минимум **Pipeline**, **JUnit**).
+4. Создайте **Pipeline** job: укажите репозиторий с этим проектом и путь к Jenkinsfile (`Jenkinsfile`).
+
+Данные Jenkins хранятся в volume `jenkins_home` и сохраняются между перезапусками. Остановка: `docker compose down`.
+
+**Примечание:** для запуска тестов из pipeline агенту Jenkins нужен .NET 8 SDK и (для Playwright) установленные браузеры. На контроллере в Docker их нет — настройте agent с меткой (например, `dotnet8`) на машине с установленным .NET 8 и Playwright или запускайте тесты на self-hosted агенте.
+
+### Git: SSH vs HTTPS
+
+- **SSH** (`git@github.com:...`): если в Jenkins при clone появляется **"Load key ... error in libcrypto"**, значит ключ в Credentials записан с ошибкой. Исправление: открой Credential (SSH Username with private key), вставь **приватный** ключ заново (файл целиком, от `-----BEGIN OPENSSH PRIVATE KEY-----` до `-----END OPENSSH PRIVATE KEY-----`), убедись что в конце есть **перевод строки**. Сохрани. Если не поможет — попробуй создать ключ RSA: `ssh-keygen -t rsa -b 2048 -C "your@email"` и добавить его в Jenkins и на GitHub.
+- **HTTPS** (рекомендуется в Docker): не зависит от libcrypto. В Jenkins создай Credential **Username with password**: ID = `github-https`, Username = твой GitHub логин, Password = [Personal Access Token](https://github.com/settings/tokens) (repo scope). Примени конфиг джобы из `jenkins-job-config-https.xml` (скрипт `scripts/Apply-JenkinsJobConfig.ps1 -ConfigPath ..\jenkins-job-config-https.xml`) — тогда джоба будет клонировать по HTTPS с этим credential.
+
+- **Failed to connect to github.com port 443**: из контейнера нет выхода в интернет (таймаут). Попробуй перезапустить сборку (часто разовый сбой). Если постоянно: проверь интернет на хосте, перезапусти Docker Desktop; за прокси — в `docker-compose.yml` раскомментируй `HTTP_PROXY`/`HTTPS_PROXY` и настрой прокси в Jenkins (Manage Jenkins → System → HTTP Proxy).
+
 ## Further documentation
 
 - `CYPRESS_TO_PLAYWRIGHT_MAPPING.md` — Cypress to Playwright mapping  
