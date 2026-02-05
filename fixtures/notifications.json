@@ -1,0 +1,32 @@
+[
+  {
+    "id": "e9a0cdf6-fcd1-4e3d-9d0c-853c290923c4",
+    "createdOn": "2026-01-05T09:25:38Z",
+    "lastModifiedOn": "2026-01-05T09:25:38Z",
+    "createdBy": "5d0d79b2-999c-4ada-9a8e-ebd4b4fa935d",
+    "lastModifiedBy": "5d0d79b2-999c-4ada-9a8e-ebd4b4fa935d",
+    "senderOrganizationId": "4059bcf6-af52-4d29-9eec-8e0b2f11fed1",
+    "receiverId": "5d0d79b2-999c-4ada-9a8e-ebd4b4fa935d",
+    "receiverOrganizationId": "4059bcf6-af52-4d29-9eec-8e0b2f11fed1",
+    "caseNumber": null,
+    "message": "2025.2.4",
+    "entityId": null,
+    "seen": null,
+    "type": "RELEASE"
+  },
+  {
+    "id": "f8b1def7-acd2-5f4e-0e1d-964d3a034d5",
+    "createdOn": "2026-01-05T09:26:00Z",
+    "lastModifiedOn": "2026-01-05T09:26:00Z",
+    "createdBy": "5d0d79b2-999c-4ada-9a8e-ebd4b4fa935d",
+    "lastModifiedBy": "5d0d79b2-999c-4ada-9a8e-ebd4b4fa935d",
+    "senderOrganizationId": "4059bcf6-af52-4d29-9eec-8e0b2f11fed1",
+    "receiverId": "5d0d79b2-999c-4ada-9a8e-ebd4b4fa935d",
+    "receiverOrganizationId": "4059bcf6-af52-4d29-9eec-8e0b2f11fed1",
+    "caseNumber": null,
+    "message": "Notification two",
+    "entityId": null,
+    "seen": null,
+    "type": "RELEASE"
+  }
+]

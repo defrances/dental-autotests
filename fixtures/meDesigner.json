@@ -1,0 +1,43 @@
+{
+  "id": "5924f920-6cd2-4d62-b59a-b2b3a36bcea0",
+  "createdOn": "2021-09-16T15:17:26Z",
+  "lastModifiedOn": "2025-12-15T12:08:20Z",
+  "createdBy": "78efbfbd-1def-bfbd-5e7d-4d09efbfbd3e",
+  "lastModifiedBy": "00000000-0000-0000-0000-000000000000",
+  "accountId": "98df8d42-b99a-428e-9d1a-fe9468422338",
+  "personId": "5924f920-6cd2-4d62-b59a-b2b3a36bcea0",
+  "locale": null,
+  "memberships": [
+    {
+      "personId": "5924f920-6cd2-4d62-b59a-b2b3a36bcea0",
+      "accountId": "98df8d42-b99a-428e-9d1a-fe9468422338",
+      "organizationId": "4059bcf6-af52-4d29-9eec-8e0b2f11fed1",
+      "roles": [
+        "TENANT_GUEST"
+      ]
+    },
+    {
+      "personId": "5924f920-6cd2-4d62-b59a-b2b3a36bcea0",
+      "accountId": "98df8d42-b99a-428e-9d1a-fe9468422338",
+      "organizationId": "3769dab6-19af-4782-8b30-37ebb5e83af9",
+      "roles": [
+        "TENANT_BASE",
+        "TENANT_ADMIN",
+        "DENTIST"
+      ]
+    },
+    {
+      "personId": "5924f920-6cd2-4d62-b59a-b2b3a36bcea0",
+      "accountId": "98df8d42-b99a-428e-9d1a-fe9468422338",
+      "organizationId": "08d5fba9-2922-4cb5-810b-fac146137c72",
+      "roles": [
+        "TENANT_GUEST"
+      ]
+    }
+  ],
+  "surname": "Lohmann",
+  "name": "Bernd",
+  "title": "Dr",
+  "email": "dentamile\u002Blohmann@gmail.com",
+  "profileComplete": true
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "95b3ddaf-6e63-4959-b406-07ba24a4769f",
+    "organizationId": "4059bcf6-af52-4d29-9eec-8e0b2f11fed1",
+    "licenseType": "COLLABORATION_COUNT",
+    "licensePackageResponseDto": {
+      "id": "cea9c70c-0598-45dc-8c07-95f19b20b56e",
+      "name": "Designer",
+      "description": "LicensePackage for designer users",
+      "licenseClass": {
+        "id": "5f09461a-b036-4b15-8881-e2257c15bc88",
+        "type": "COLLABORATION_COUNT",
+        "name": "Connections",
+        "description": "Limits the number of connections between organizations",
+        "counterBased": true,
+        "licensePackageType": null
+      },
+      "licenseValue": {
+        "id": "1ae7fc4d-8770-4aad-a088-3b4918a9901b",
+        "name": "DesignerConnections",
+        "description": "Number of connections a designer can have",
+        "value": -1,
+        "stringValue": null
+      },
+      "licensePackageType": "DESIGNER"
+    },
+    "active": true,
+    "maxValue": -1,
+    "actualValue": 0,
+    "actualRequests": 0,
+    "releaseValue": 0
+  }
+]

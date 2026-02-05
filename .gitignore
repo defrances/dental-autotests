@@ -1,0 +1,96 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Oo]ut/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+
+# Visual Studio Code / Cursor
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Rider
+.idea/
+*.sln.iml
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+packages/
+!packages/build/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.assets.json
+project.assets.json.lock
+nuget.config.user
+
+# Test & coverage
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+*.VisualState.xml
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+*.trace
+*.webm
+blob-report/
+storage-state*.json
+!fixtures/
+
+# User-specific / secrets (uncomment if you use local overrides)
+# appsettings.Development.json
+# appsettings.Local.json
+# **/appsettings.*.local.json
+# *.pfx
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Misc
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig

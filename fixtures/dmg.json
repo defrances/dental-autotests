@@ -1,0 +1,29 @@
+{
+  "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+  "createdOn": "2021-09-16T20:34:24Z",
+  "lastModifiedOn": "2026-01-23T18:13:54Z",
+  "createdBy": "78efbfbd-1def-bfbd-5e7d-4d09efbfbd3e",
+  "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+  "type": "LABORATORY",
+  "name": "Dentallabor Lorenz",
+  "companyPhoneNumber": "123",
+  "companyEmail": "dentamile\u002Blorenz@gmail.com",
+  "streetNameBuildingNumber": "Hufnerstrasse 77",
+  "postalCode": "22344",
+  "city": "Hamburg",
+  "countryCode": "DEU",
+  "contactPersonName": "Markus",
+  "contactPersonSurname": "Lorenz",
+  "contactPersonEmail": "dentamile\u002Blorenz@gmail.com",
+  "salesTeamEmail": null,
+  "billingEmail": null,
+  "visible": true,
+  "imprint": "Impressum",
+  "active": true,
+  "legalImpressumShown": true,
+  "brands": [
+    "KANIEDENTA",
+    "DMG"
+  ],
+  "parameters": []
+}

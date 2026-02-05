@@ -1,0 +1,488 @@
+{
+  "content": [
+    {
+      "id": "1529817e-d826-439c-8a81-09c7313fb189",
+      "createdOn": "2024-08-26T09:22:38Z",
+      "lastModifiedOn": "2024-08-26T09:22:47Z",
+      "createdBy": "00000000-0000-0000-0000-000000000000",
+      "lastModifiedBy": "00000000-0000-0000-0000-000000000000",
+      "patientId": "00000000-0000-0000-0000-000000000000",
+      "organizationId": "a9c16cc8-a8ca-4219-8bbe-f8e6b5d8a2d3",
+      "dentistId": "00000000-0000-0000-0000-000000000000",
+      "description": "",
+      "assignees": [],
+      "dentalCaseNumber": 1000270,
+      "workflows": [
+        {
+          "id": "e3dc1a0f-0f7a-4477-8306-bb4e885788f7",
+          "createdOn": "2024-08-26T09:22:38Z",
+          "lastModifiedOn": "2024-08-26T09:22:47Z",
+          "createdBy": "2b8bf2b3-a68c-4be7-a27e-7a62d83ae18d",
+          "lastModifiedBy": "2b8bf2b3-a68c-4be7-a27e-7a62d83ae18d",
+          "indication": {
+            "type": "BLEACHING_SPLINT",
+            "designMode": "BIOGEN_COPY",
+            "toothSelection": {
+              "toothCodes": [],
+              "jawType": "LOWER"
+            }
+          },
+          "state": "CREATED",
+          "manufacturingMaterialSelection": {
+            "id": "a1bf57ad-8e03-41dd-8bf9-099102072e69",
+            "createdOn": "2024-08-26T09:22:38Z",
+            "lastModifiedOn": "2024-08-26T09:22:38Z",
+            "createdBy": "2b8bf2b3-a68c-4be7-a27e-7a62d83ae18d",
+            "lastModifiedBy": "2b8bf2b3-a68c-4be7-a27e-7a62d83ae18d",
+            "type": "PLA",
+            "model": "LuxaPrint Ortho Flex",
+            "make": "DMG",
+            "parameters": [
+              {
+                "key": "BITE_SPLINT.THICKNESS.OCCLUSAL",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BITE_SPLINT.THICKNESS.CIRCULAR",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BITE_SPLINT.POSITIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.2
+              },
+              {
+                "key": "BITE_SPLINT.NEGATIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.3
+              },
+              {
+                "key": "BLEACHING_SPLINT.THICKNESS.OCCLUSAL",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BLEACHING_SPLINT.THICKNESS.CIRCULAR",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BLEACHING_SPLINT.POSITIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.2
+              },
+              {
+                "key": "BLEACHING_SPLINT.NEGATIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.3
+              },
+              {
+                "key": "LAYER.THICKNESS",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.1
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.THICKNESS.CIRCULAR",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1.5
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.POSITIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.2
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.NEGATIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.3
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.THICKNESS.OCCLUSAL",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "LAYER.THICKNESS",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.05
+              },
+              {
+                "key": "LAYER.THICKNESS.REQUESTED",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.1
+              }
+            ],
+            "udiDi": "2000g_eu_170281_us_171281_1000g_eu_170252_us_171252_500g_eu_170250_us_171250_200g_eu_170273_us_171273",
+            "externalId": null
+          },
+          "version": "3.0.0",
+          "parameters": []
+        }
+      ],
+      "delegations": [
+        {
+          "id": "f1fc960b-bf4d-4f40-bafa-11fc4e172fa8",
+          "dentalCaseId": "1529817e-d826-439c-8a81-09c7313fb189",
+          "workflowId": "e3dc1a0f-0f7a-4477-8306-bb4e885788f7",
+          "stepId": "fc9a761e-f839-42c5-a1d4-a4b95055c56a",
+          "clientOrganization": {
+            "id": "a9c16cc8-a8ca-4219-8bbe-f8e6b5d8a2d3",
+            "name": "Connect & Design Ltd.",
+            "brandPrefix": "DMG"
+          },
+          "clientDentalCaseNumber": 1000003,
+          "contractorOrganization": {
+            "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+            "name": "Dentallabor Lorenz",
+            "brandPrefix": "DMG"
+          },
+          "contractorDentalCaseNumber": 1000270
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "5bc6ae0d-842b-46d8-bdb6-ed08975d8746",
+      "createdOn": "2024-09-11T08:35:13Z",
+      "lastModifiedOn": "2024-09-11T08:36:22Z",
+      "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "patientId": "7348a285-92a5-40b6-ae6b-2399546c5965",
+      "organizationId": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "dentistId": null,
+      "description": "",
+      "assignees": [
+        {
+          "dentalCaseId": "5bc6ae0d-842b-46d8-bdb6-ed08975d8746",
+          "organizationId": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+          "assigneeId": "21263d77-4e55-475c-9659-c0f6d684483c"
+        }
+      ],
+      "dentalCaseNumber": 1000268,
+      "workflows": [
+        {
+          "id": "45460fd9-7520-4276-8d02-63ba61c8b882",
+          "createdOn": "2024-09-11T08:35:13Z",
+          "lastModifiedOn": "2024-09-11T08:36:22Z",
+          "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+          "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+          "indication": {
+            "type": "BLEACHING_SPLINT",
+            "designMode": "BIOGEN_COPY",
+            "toothSelection": {
+              "toothCodes": [],
+              "jawType": "LOWER"
+            }
+          },
+          "state": "READY_TO_PRINT",
+          "manufacturingMaterialSelection": {
+            "id": "4e30fbfd-558e-4188-8f23-aa408a052f4a",
+            "createdOn": "2024-09-11T08:35:13Z",
+            "lastModifiedOn": "2024-09-11T08:35:13Z",
+            "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+            "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+            "type": "PLA",
+            "model": "LuxaPrint Ortho Flex",
+            "make": "DMG",
+            "parameters": [
+              {
+                "key": "BITE_SPLINT.THICKNESS.OCCLUSAL",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BITE_SPLINT.THICKNESS.CIRCULAR",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BITE_SPLINT.POSITIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.2
+              },
+              {
+                "key": "BITE_SPLINT.NEGATIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.3
+              },
+              {
+                "key": "BLEACHING_SPLINT.THICKNESS.OCCLUSAL",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BLEACHING_SPLINT.THICKNESS.CIRCULAR",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BLEACHING_SPLINT.POSITIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.2
+              },
+              {
+                "key": "BLEACHING_SPLINT.NEGATIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.3
+              },
+              {
+                "key": "LAYER.THICKNESS",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.1
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.THICKNESS.CIRCULAR",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1.5
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.POSITIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.2
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.NEGATIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.3
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.THICKNESS.OCCLUSAL",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "LAYER.THICKNESS",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.05
+              },
+              {
+                "key": "LAYER.THICKNESS.REQUESTED",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.1
+              }
+            ],
+            "udiDi": "2000g_eu_170281_us_171281_1000g_eu_170252_us_171252_500g_eu_170250_us_171250_200g_eu_170273_us_171273",
+            "externalId": null
+          },
+          "version": "3.0.0",
+          "parameters": []
+        }
+      ],
+      "delegations": [
+        {
+          "id": "b24c4131-f8cc-43f9-be73-3cd3d5afb585",
+          "dentalCaseId": "5bc6ae0d-842b-46d8-bdb6-ed08975d8746",
+          "workflowId": "45460fd9-7520-4276-8d02-63ba61c8b882",
+          "stepId": "e43488ea-69ad-4298-bc0f-81b928badafd",
+          "clientOrganization": {
+            "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+            "name": "Dentallabor Lorenz",
+            "brandPrefix": "DMG"
+          },
+          "clientDentalCaseNumber": 1000268,
+          "contractorOrganization": {
+            "id": "ca342136-a489-4ec8-b4ad-e43ed1d7cbdd",
+            "name": "Dr. Austen",
+            "brandPrefix": "DMG"
+          },
+          "contractorDentalCaseNumber": 1000025
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "dd867bbd-7920-426f-980f-d6f5fd3df1d2",
+      "createdOn": "2024-09-11T08:09:05Z",
+      "lastModifiedOn": "2024-09-11T08:11:09Z",
+      "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "patientId": "a9dc5123-a5f7-4e09-a1df-50368039977c",
+      "organizationId": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "dentistId": null,
+      "description": "",
+      "assignees": [
+        {
+          "dentalCaseId": "dd867bbd-7920-426f-980f-d6f5fd3df1d2",
+          "organizationId": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+          "assigneeId": "21263d77-4e55-475c-9659-c0f6d684483c"
+        }
+      ],
+      "dentalCaseNumber": 1000267,
+      "workflows": [
+        {
+          "id": "2a81bd29-6cf5-438f-b173-c5bfd27c85e7",
+          "createdOn": "2024-09-11T08:09:05Z",
+          "lastModifiedOn": "2024-09-11T08:11:09Z",
+          "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+          "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+          "indication": {
+            "type": "BLEACHING_SPLINT",
+            "designMode": "BIOGEN_COPY",
+            "toothSelection": {
+              "toothCodes": [],
+              "jawType": "UPPER"
+            }
+          },
+          "state": "READY_TO_PRINT",
+          "manufacturingMaterialSelection": {
+            "id": "e3eaee22-f89d-4711-bf4b-dcd33e26b5f8",
+            "createdOn": "2024-09-11T08:09:05Z",
+            "lastModifiedOn": "2024-09-11T08:09:05Z",
+            "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+            "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+            "type": "PLA",
+            "model": "LuxaPrint Ortho Flex",
+            "make": "DMG",
+            "parameters": [
+              {
+                "key": "BITE_SPLINT.THICKNESS.OCCLUSAL",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BITE_SPLINT.THICKNESS.CIRCULAR",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BITE_SPLINT.POSITIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.2
+              },
+              {
+                "key": "BITE_SPLINT.NEGATIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.3
+              },
+              {
+                "key": "BLEACHING_SPLINT.THICKNESS.OCCLUSAL",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BLEACHING_SPLINT.THICKNESS.CIRCULAR",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "BLEACHING_SPLINT.POSITIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.2
+              },
+              {
+                "key": "BLEACHING_SPLINT.NEGATIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.3
+              },
+              {
+                "key": "LAYER.THICKNESS",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.1
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.THICKNESS.CIRCULAR",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1.5
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.POSITIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.2
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.NEGATIVE.OFFSET",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.3
+              },
+              {
+                "key": "BLEACHING_SPLINT_ADJUSTED.THICKNESS.OCCLUSAL",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 1
+              },
+              {
+                "key": "LAYER.THICKNESS",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.05
+              },
+              {
+                "key": "LAYER.THICKNESS.REQUESTED",
+                "unit": "MILLIMETER",
+                "type": "DOUBLE",
+                "value": 0.05
+              }
+            ],
+            "udiDi": "2000g_eu_170281_us_171281_1000g_eu_170252_us_171252_500g_eu_170250_us_171250_200g_eu_170273_us_171273",
+            "externalId": null
+          },
+          "version": "3.0.0",
+          "parameters": []
+        }
+      ],
+      "delegations": [],
+      "comments": []
+    }
+  ],
+  "pageable": {
+    "sort": [],
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 3,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalElements": 3,
+  "totalPages": 1,
+  "last": true,
+  "size": 3,
+  "number": 0,
+  "sort": [],
+  "numberOfElements": 3,
+  "first": true,
+  "empty": false
+}

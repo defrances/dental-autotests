@@ -1,0 +1,75 @@
+{
+  "content": [
+    {
+      "id": "a8ed627f-bb0d-41f9-9682-63f0a3ce9bc0",
+      "createdOn": "2024-07-22T09:39:56Z",
+      "lastModifiedOn": "2024-07-22T09:39:56Z",
+      "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "surname": "Patient 2222",
+      "name": "2222",
+      "salutation": null,
+      "dateOfBirth": "1111-11-11",
+      "externalId": "23r23f"
+    },
+    {
+      "id": "b65517be-1cd9-410b-84ca-1ab7aa8c466d",
+      "createdOn": "2024-07-22T09:37:54Z",
+      "lastModifiedOn": "2024-07-22T09:37:54Z",
+      "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "surname": "Patient 222",
+      "name": "222",
+      "salutation": null,
+      "dateOfBirth": "1111-11-11",
+      "externalId": "123f2egr"
+    },
+    {
+      "id": "0a5b3c5f-9c9a-4c6d-a25c-aa4a99518bb8",
+      "createdOn": "2024-07-22T09:36:48Z",
+      "lastModifiedOn": "2024-07-22T09:36:48Z",
+      "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+      "surname": "zzzz",
+      "name": "zzzz",
+      "salutation": null,
+      "dateOfBirth": "1111-11-11",
+      "externalId": "123dfef"
+    }
+  ],
+  "pageable": {
+    "sort": [
+      {
+        "direction": "DESC",
+        "property": "lastModifiedOn",
+        "ignoreCase": false,
+        "nullHandling": "NATIVE",
+        "ascending": false,
+        "descending": true
+      }
+    ],
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 3,
+    "unpaged": false,
+    "paged": true
+  },
+  "last": false,
+  "totalElements": 81,
+  "totalPages": 27,
+  "size": 3,
+  "number": 0,
+  "sort": [
+    {
+      "direction": "DESC",
+      "property": "lastModifiedOn",
+      "ignoreCase": false,
+      "nullHandling": "NATIVE",
+      "ascending": false,
+      "descending": true
+    }
+  ],
+  "first": true,
+  "numberOfElements": 3,
+  "empty": false
+}

@@ -1,0 +1,5028 @@
+[
+  {
+    "id": "19d9b696-0b75-4374-8340-c15960c73f78",
+    "createdOn": "2022-04-06T14:54:06Z",
+    "lastModifiedOn": "2023-03-02T09:40:01Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "ca342136-a489-4ec8-b4ad-e43ed1d7cbdd",
+      "type": "SURGERY",
+      "name": "Dr. Austen",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+austen@gmail.com",
+      "streetNameBuildingNumber": "569 Kingsway",
+      "postalCode": "E19 5GY",
+      "city": "London",
+      "countryCode": "GBR",
+      "contactPersonName": "Jane",
+      "contactPersonSurname": "Austen",
+      "contactPersonEmail": "dentamile+austen@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+austen@gmail.com",
+          "organizationName": "Dr. Austen",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "POSTPROCESSED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  },
+  {
+    "id": "1e8ebc42-0b74-4dc0-9369-2c192cbaf687",
+    "createdOn": "2023-03-02T09:27:03Z",
+    "lastModifiedOn": "2023-03-02T09:30:45Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "08d5fba9-2922-4cb5-810b-fac146137c72",
+      "type": "SURGERY",
+      "name": "Dr. Krogmann",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+krogmann@gmail.com",
+      "streetNameBuildingNumber": "Hofweg 1",
+      "postalCode": "20187",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Dennis",
+      "contactPersonSurname": "Krogmann",
+      "contactPersonEmail": "dentamile+krogmann@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+krogmann@gmail.com",
+          "organizationName": "Dr. Krogmann",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "POSTPROCESSED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  },
+  {
+    "id": "29eb2f9e-049a-4d63-9e35-2b375ac826c8",
+    "createdOn": "2022-08-19T13:08:03Z",
+    "lastModifiedOn": "2022-09-21T13:20:27Z",
+    "createdBy": "681ae509-3c6f-4932-9470-1ded9725e43d",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "5a809c5e-b2e6-4b46-a283-8ee56df3b229",
+      "type": "LABORATORY",
+      "name": "Fm Dentallabor GmbH",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+mollenhauer@gmail.com",
+      "streetNameBuildingNumber": "Brauhasustrasse 2a",
+      "postalCode": "20112",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Fiona",
+      "contactPersonSurname": "Mollenhauer",
+      "contactPersonEmail": "dentamile+mollenhauer@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+mollenhauer@gmail.com",
+          "organizationName": "Fm Dentallabor GmbH",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "POSTPROCESSED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  },
+  {
+    "id": "4111f151-2d10-494c-a0c0-a030228eaf60",
+    "createdOn": "2023-03-02T09:26:37Z",
+    "lastModifiedOn": "2023-03-10T09:46:00Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "6d1b695b-efdf-4922-b39c-6c75517df43d",
+      "type": "SURGERY",
+      "name": "Dr. Johnson",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+johnson@gmail.com",
+      "streetNameBuildingNumber": "92 York Road",
+      "postalCode": "SE39 6IC",
+      "city": "London",
+      "countryCode": "GBR",
+      "contactPersonName": "George",
+      "contactPersonSurname": "Johnson",
+      "contactPersonEmail": "dentamile+johnson@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+johnson@gmail.com",
+          "organizationName": "Dr. Johnson",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "FINALIZED",
+    "expirationDate": "2023-03-10T00:00:00Z"
+  },
+  {
+    "id": "476e0385-182f-494a-8439-a73bb870f705",
+    "createdOn": "2023-03-02T09:26:18Z",
+    "lastModifiedOn": "2023-03-02T09:28:16Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "a9c16cc8-a8ca-4219-8bbe-f8e6b5d8a2d3",
+      "type": "LABORATORY",
+      "name": "Connect & Design Ltd.",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lee@gmail.com",
+      "streetNameBuildingNumber": "17 Queen Street",
+      "postalCode": "SW85 1DY",
+      "city": "London",
+      "countryCode": "GBR",
+      "contactPersonName": "Vincent",
+      "contactPersonSurname": "Lee",
+      "contactPersonEmail": "dentamile+lee@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lee@gmail.com",
+          "organizationName": "Connect & Design Ltd.",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "POSTPROCESSED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  },
+  {
+    "id": "7d7f0775-b642-4cba-bbd0-8b730adce4a4",
+    "createdOn": "2023-03-02T09:36:51Z",
+    "lastModifiedOn": "2023-03-02T09:36:51Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "d5501ca4-f8f6-44b1-8277-3a14417c6f29",
+      "type": "LABORATORY",
+      "name": " ",
+      "companyPhoneNumber": null,
+      "companyEmail": null,
+      "streetNameBuildingNumber": null,
+      "postalCode": null,
+      "city": null,
+      "countryCode": null,
+      "contactPersonName": null,
+      "contactPersonSurname": null,
+      "contactPersonEmail": "dentamile+test1@gmail.com",
+      "salesTeamEmail": null,
+      "visible": null,
+      "imprint": null,
+      "active": null,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": null,
+          "organizationEmail": null,
+          "organizationName": " ",
+          "imprint": null
+        }
+      ]
+    },
+    "state": "UNKNOWN",
+    "expirationDate": "2023-04-02T00:00:00Z"
+  },
+  {
+    "id": "8847bb54-4231-4ab9-b222-19d2583d1e45",
+    "createdOn": "2023-03-02T09:26:59Z",
+    "lastModifiedOn": "2023-03-02T09:30:12Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "9aa457bc-5c4c-4a9c-8d2c-dc54fb4f73fe",
+      "type": "SURGERY",
+      "name": "Dr. Thiessen",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+thiessen@gmail.com",
+      "streetNameBuildingNumber": "Groote Bleek 1",
+      "postalCode": "22334",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Karl",
+      "contactPersonSurname": "Thiessen",
+      "contactPersonEmail": "dentamile+thiessen@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+thiessen@gmail.com",
+          "organizationName": "Dr. Thiessen",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "POSTPROCESSED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  },
+  {
+    "id": "94dea154-e226-4e6e-ba86-87afda11fe11",
+    "createdOn": "2023-03-02T08:44:44Z",
+    "lastModifiedOn": "2023-03-06T11:52:00Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "3769dab6-19af-4782-8b30-37ebb5e83af9",
+      "type": "SURGERY",
+      "name": "Dr. Lohmann",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lohmann@gmail.com",
+      "streetNameBuildingNumber": "Street",
+      "postalCode": "20459",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Bernd",
+      "contactPersonSurname": "Lohmann",
+      "contactPersonEmail": "dentamile+lohmann@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lohmann@gmail.com",
+          "organizationName": "Dr. Lohmann",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "FINALIZED",
+    "expirationDate": "2023-03-06T00:00:00Z"
+  },
+  {
+    "id": "9c3972d0-7fb4-4b73-a92b-2db1c6e69f41",
+    "createdOn": "2023-03-02T09:26:53Z",
+    "lastModifiedOn": "2023-03-10T10:12:40Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "08efa968-fb5c-43f0-8de6-9791672ea6ad",
+      "type": "LABORATORY",
+      "name": "Excel! Ltd.",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lopez@gmail.com",
+      "streetNameBuildingNumber": "87 Park Road",
+      "postalCode": "E43 5WC",
+      "city": "London",
+      "countryCode": "GBR",
+      "contactPersonName": "Aimee",
+      "contactPersonSurname": "Lopez",
+      "contactPersonEmail": "dentamile+lopez@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lopez@gmail.com",
+          "organizationName": "Excel! Ltd.",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "FINALIZED",
+    "expirationDate": "2023-03-10T00:00:00Z"
+  },
+  {
+    "id": "b6db1223-add9-4673-b4b5-438a5b8ce993",
+    "createdOn": "2023-03-02T09:26:31Z",
+    "lastModifiedOn": "2023-03-02T09:30:01Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "42009037-1ff6-4ec0-be50-a0247ca4e193",
+      "type": "SURGERY",
+      "name": "Dr. Berry",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+berry@gmail.com",
+      "streetNameBuildingNumber": "193 Station Road",
+      "postalCode": "EC37 0KB",
+      "city": "London",
+      "countryCode": "GBR",
+      "contactPersonName": "Halle",
+      "contactPersonSurname": "Berry",
+      "contactPersonEmail": "dentamile+berry@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+berry@gmail.com",
+          "organizationName": "Dr. Berry",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "POSTPROCESSED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  },
+  {
+    "id": "c2381c75-d32b-4592-876f-448ea2a1e324",
+    "createdOn": "2023-03-02T09:26:45Z",
+    "lastModifiedOn": "2023-03-02T09:28:44Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "1cbf4194-e4d4-4bf0-9d15-2bb58d7f0884",
+      "type": "LABORATORY",
+      "name": "Zahn & Form GmbH",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+schmidt@gmail.com",
+      "streetNameBuildingNumber": "Buchweizengasse 1",
+      "postalCode": "22887",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Klaus",
+      "contactPersonSurname": "Schmidt",
+      "contactPersonEmail": "dentamile+schmidt@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+schmidt@gmail.com",
+          "organizationName": "Zahn & Form GmbH",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "POSTPROCESSED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  },
+  {
+    "id": "dd806042-433f-4abc-9042-3d7238977216",
+    "createdOn": "2023-03-02T09:26:49Z",
+    "lastModifiedOn": "2023-03-02T09:30:02Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "5e683699-b104-4285-90cb-12963412c617",
+      "type": "LABORATORY",
+      "name": "Fleming Dental",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+fleming@gmail.com",
+      "streetNameBuildingNumber": "90 George Street",
+      "postalCode": "E60 9YA",
+      "city": "London",
+      "countryCode": "GBR",
+      "contactPersonName": "Ian",
+      "contactPersonSurname": "Fleming",
+      "contactPersonEmail": "dentamile+fleming@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+fleming@gmail.com",
+          "organizationName": "Fleming Dental",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "POSTPROCESSED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  },
+  {
+    "id": "f5a49de4-acb4-47a1-aea8-93abf3882206",
+    "createdOn": "2023-03-02T09:26:56Z",
+    "lastModifiedOn": "2023-03-03T08:04:36Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "9a9a26a4-ab7e-417b-a849-c64044784e6d",
+      "type": "SURGERY",
+      "name": "Dr. Vulpur",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+vulpur@gmail.com",
+      "streetNameBuildingNumber": "Hohnstorfstr. 23",
+      "postalCode": "10134",
+      "city": "Berlin",
+      "countryCode": "DEU",
+      "contactPersonName": "Achmed",
+      "contactPersonSurname": "Vulpur",
+      "contactPersonEmail": "dentamile+vulpur@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+vulpur@gmail.com",
+          "organizationName": "Dr. Vulpur",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "FINALIZED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  },
+  {
+    "id": "fa8e8d77-3f0e-4768-b003-41be2aa54b97",
+    "createdOn": "2023-03-02T09:26:25Z",
+    "lastModifiedOn": "2023-03-02T09:30:00Z",
+    "createdBy": "90b08e0f-19e8-4e71-a1db-b08dfa39030f",
+    "lastModifiedBy": "11111111-1111-1111-1111-111111111111",
+    "initiatingOrganization": {
+      "id": "c761d477-6c2c-4098-80d6-06ab3e3d23ea",
+      "type": "LABORATORY",
+      "name": "Dentallabor Lorenz",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lorenz@gmail.com",
+      "streetNameBuildingNumber": "Hufnerstrasse 77",
+      "postalCode": "22344",
+      "city": "Hamburg",
+      "countryCode": "DEU",
+      "contactPersonName": "Markus",
+      "contactPersonSurname": "Lorenz",
+      "contactPersonEmail": "dentamile+lorenz@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lorenz@gmail.com",
+          "organizationName": "Dentallabor Lorenz",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "acceptingOrganization": {
+      "id": "8bf9dab2-3c2c-4e74-8648-c5995b44b8e1",
+      "type": "LABORATORY",
+      "name": "Denta Point",
+      "companyPhoneNumber": "123",
+      "companyEmail": "dentamile+lawson@gmail.com",
+      "streetNameBuildingNumber": "3266  Raver Croft Drive",
+      "postalCode": "37620",
+      "city": "Bristol",
+      "countryCode": "GBR",
+      "contactPersonName": "Judie",
+      "contactPersonSurname": "Lawson",
+      "contactPersonEmail": "dentamile+lawson@gmail.com",
+      "salesTeamEmail": null,
+      "visible": true,
+      "imprint": "Impressum",
+      "active": true,
+      "brands": [
+        {
+          "id": "041d4543-4fe8-11ef-9704-aa9b45e4bb5f",
+          "brand": "DMG",
+          "productName": "DentaMile connect",
+          "websiteLink": "https://www.dentamile-connect.com",
+          "supportEmail": "supportdigital@dmg-dental.com",
+          "printServiceName": "Print Service",
+          "contactPhoneNumber": "+498008400666",
+          "themeColor": "#004d95",
+          "manualUrl": "https://dentamile-connect-manual.com",
+          "realmType": "DDWP",
+          "configurations": [
+            {
+              "key": "CONNECTIONS",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "DASHBOARD.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "CASES.DELEGATE",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "FILE.TRANSFER.RECEIVED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            },
+            {
+              "key": "BRAND.PREFIX",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "DMG"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BITE_SPLINT.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.BLEACHING_SPLINT.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.SURGICAL_GUIDE.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIRECT_BONDING_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.INDIVIDUAL_TRAY.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.NONE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "NONE"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.SUPPORT_REMOVAL",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "SUPPORT_REMOVAL"
+            },
+            {
+              "key": "SURFACE.PROCESSING.CASTABLE_ITEM.PRE_POLISH",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "PRE_POLISH"
+            },
+            {
+              "key": "BRAND.MATERIAL.TITLE",
+              "unit": "NONE",
+              "type": "STRING",
+              "value": "material"
+            },
+            {
+              "key": "MULTIFILE_ENABLED",
+              "unit": "BIT",
+              "type": "BOOLEAN",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "organizationDetailsBrand": [
+        {
+          "brandType": "DMG",
+          "organizationPhoneNumber": "123",
+          "organizationEmail": "dentamile+lawson@gmail.com",
+          "organizationName": "Denta Point",
+          "imprint": "Impressum"
+        }
+      ]
+    },
+    "state": "POSTPROCESSED",
+    "expirationDate": "1970-01-01T01:01:01Z"
+  }
+]

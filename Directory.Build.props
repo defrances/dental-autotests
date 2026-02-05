@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <!-- Only for the test project: avoid duplicate assembly attributes (SDK + Test SDK both generate) -->
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'DmgPortalPlaywrightTests'">
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+</Project>
