@@ -114,10 +114,9 @@ pipeline {
 
     post {
         always {
-            // Результаты NUnit/JUnit для Jenkins
             junit allowEmptyResults: true, testResults: '**/junit.xml'
-            archiveArtifacts artifacts: '**/TestResults.trx,**/test-results/**', allowEmptyArchive: true
-            // Опционально: HTML-отчёт Playwright (если включён в тестах)
+            // Артифакты по каждому тесту: видео, HAR, скриншоты при падении, TRX
+            archiveArtifacts artifacts: '**/TestResults.trx,**/test-results/videos/**,**/test-results/har/**,**/test-results/screenshots/**', allowEmptyArchive: true
             archiveArtifacts artifacts: '**/playwright-report/**', allowEmptyArchive: true
         }
     }

@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
 using NUnit.Framework;
+using NUnit.Framework.Interfaces;
 
 namespace DmgPortalPlaywrightTests;
 
@@ -202,10 +203,22 @@ public abstract class TestBase : PageTest
         var config = TestSettings.GetConfiguration();
         var videoEnabled = TestSettings.VideoEnabled(config);
         var harEnabled = TestSettings.HarEnabled(config);
-        if (!videoEnabled && !harEnabled)
-            return;
+        var testId = TestContext.CurrentContext.Test.ID;
+        var safeId = string.Join("_", testId.Split(Path.GetInvalidFileNameChars()));
+
         try
         {
+            // Скриншот при падении теста — артифакт по каждому упавшему тесту
+            if (TestContext.CurrentContext.Result.Outcome != ResultState.Success && Page != null)
+            {
+                var screenshotsDir = Path.Combine(AppContext.BaseDirectory, "test-results", "screenshots");
+                Directory.CreateDirectory(screenshotsDir);
+                var screenshotPath = Path.Combine(screenshotsDir, $"{safeId}.png");
+                await Page.ScreenshotAsync(new PageScreenshotOptions { Path = screenshotPath });
+                if (File.Exists(screenshotPath))
+                    TestContext.AddTestAttachment(screenshotPath, Path.GetFileName(screenshotPath));
+            }
+
             if (videoEnabled && Page?.Video != null || harEnabled)
             {
                 await Context.CloseAsync();
@@ -218,8 +231,6 @@ public abstract class TestBase : PageTest
                 if (harEnabled)
                 {
                     var harDir = TestSettings.HarDir(config);
-                    var testId = TestContext.CurrentContext.Test.ID;
-                    var safeId = string.Join("_", testId.Split(Path.GetInvalidFileNameChars()));
                     var harPath = Path.Combine(harDir, $"{safeId}.har");
                     if (File.Exists(harPath))
                         TestContext.AddTestAttachment(harPath, Path.GetFileName(harPath));
