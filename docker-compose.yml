@@ -19,6 +19,8 @@ services:
       - jenkins_home:/var/jenkins_home
     environment:
       - HOME=/var/jenkins_home
+      # .NET без libicu в образе — запуск в invariant mode (https://aka.ms/dotnet-missing-libicu)
+      - DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
       # Если за корпоративным прокси — раскомментируй и укажи свой прокси (тогда в Jenkins: Manage Jenkins → System → HTTP Proxy тоже укажи прокси):
       # - HTTP_PROXY=http://proxy.company:8080
       # - HTTPS_PROXY=http://proxy.company:8080

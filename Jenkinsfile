@@ -68,13 +68,15 @@ pipeline {
             steps {
                 script {
                     def outDir = "bin/Release/net${env.DOTNET_VERSION}"
-                    def pwScript = (isUnix()) ? "${outDir}/playwright.sh" : "${outDir}/playwright.ps1"
                     if (isUnix()) {
-                        sh """
-                            chmod +x ${pwScript} 2>/dev/null || true
-                            ${pwScript} install --with-deps
-                        """
+                        // В NuGet пакете Microsoft.Playwright есть только playwright.ps1; на Linux ставим через dotnet tool
+                        sh '''
+                            dotnet tool install --global Microsoft.Playwright.CLI 2>/dev/null || true
+                            export PATH="$HOME/.dotnet/tools:$PATH"
+                            playwright install --with-deps
+                        '''
                     } else {
+                        def pwScript = "${outDir}/playwright.ps1"
                         powershell """
                             if (Test-Path '${pwScript}') { & '${pwScript}' install }
                             else { dotnet tool install --global Microsoft.Playwright.CLI 2>\$null; playwright install }
